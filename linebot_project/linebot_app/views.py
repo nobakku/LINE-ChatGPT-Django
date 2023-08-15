@@ -30,6 +30,6 @@ def handle_message(event):
     )
 
 
-
+#TODO ngrok動作確認用(最後に消す)
 def index(request):
     return HttpResponse("Hello, LINE bot!")
